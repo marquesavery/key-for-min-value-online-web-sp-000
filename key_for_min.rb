@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   n = ""
   v = 1000
   name_hash.each do |key, value|
-    binding.pry
+#    binding.pry
     if value <= v
       n = key
     else
