@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
 #    binding.pry
     if value < v
       n = key
+      v = value
     end
   end
   n
